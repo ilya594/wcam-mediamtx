@@ -1,4 +1,3 @@
-
 logLevel: info
 rtsp:
   listen: 8554
