@@ -1,0 +1,10 @@
+
+logLevel: info
+rtsp:
+  listen: 8554
+webrtc:
+  listen: 8889
+hls:
+  listen: 8888
+paths:
+  sourceOnDemand: yes
