@@ -5,13 +5,13 @@ rtsp:
 
 webrtc:
   listen: ":8889"
-  candidates:
-    - ${RENDER_EXTERNAL_IP}
+  #candidates:
+  #  - ${RENDER_EXTERNAL_IP}
 
 hls:
   listen: ":8888"
 
 paths:
   dahua_cam:
-    source: rtsp://USER:PASSWORD@CAMERA_IP:554/cam/realmonitor?channel=1&subtype=1
+  #  source: rtsp://USER:PASSWORD@CAMERA_IP:554/cam/realmonitor?channel=1&subtype=1
     sourceOnDemand: yes
