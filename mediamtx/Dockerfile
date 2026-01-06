@@ -1,3 +1,3 @@
 FROM bluenviron/mediamtx:latest
-COPY mediamtx.yml /mediamtx.yml
+COPY mediamtx.yaml /mediamtx.yaml
 CMD ["/mediamtx"]
