@@ -9,4 +9,4 @@ hlsAddress: ':8888'
 paths:
   dahua_cam:
     source: 'rtsp://localhost'
-    sourceOnDemandh: 'no'
+    sourceOnDemand: 'no'
