@@ -1,0 +1,12 @@
+logLevel: info
+logDestinations: [stdout]
+rtsp: 'yes'
+rtspAddress: ':8554'
+webrtc: 'yes'
+webrtcAddress: ':8889'
+hls: 'yes'
+hlsAddress: ':8888'
+paths:
+  dahua_cam:
+    source: 'rtsp://localhost'
+    sourceOnDemand: 'no'
