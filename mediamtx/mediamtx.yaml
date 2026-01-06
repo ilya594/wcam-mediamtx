@@ -1,2 +1,3 @@
 logLevel: info
-logDestinations:
+logDestinations:  
+  - stderr
